@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="calendar_stroke_width">1dp</dimen>
+    <dimen name="calendar_day_padding">1dp</dimen>
+    <dimen name="calendar_day_corner_radius">1dp</dimen>
+</resources>

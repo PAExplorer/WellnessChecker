@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <solid android:color="@android:color/transparent" />
+    <stroke android:color="@color/calendar_stroke"
+        android:width="@dimen/calendar_stroke_width" />
+    <padding android:left="@dimen/calendar_day_selector_padding"
+             android:top="@dimen/calendar_day_selector_padding"
+             android:right="@dimen/calendar_day_selector_padding"
+             android:bottom="@dimen/calendar_day_selector_padding" />
+</shape>

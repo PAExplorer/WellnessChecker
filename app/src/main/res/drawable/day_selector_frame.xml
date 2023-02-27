@@ -1,0 +1,40 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/calendar_stroke_width"
+                android:color="@color/teal_200"/>
+            <solid android:color="@android:color/transparent"/>
+            <padding android:left="@dimen/calendar_day_padding"
+                android:top="@dimen/calendar_day_padding"
+                android:right="@dimen/calendar_day_padding"
+                android:bottom="@dimen/calendar_day_padding"/>
+            <corners android:radius="@dimen/calendar_day_corner_radius"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/calendar_stroke_width"
+                android:color="@color/teal_200"/>
+            <solid android:color="@color/teal_200"/>
+            <padding android:left="@dimen/calendar_day_padding"
+                android:top="@dimen/calendar_day_padding"
+                android:right="@dimen/calendar_day_padding"
+                android:bottom="@dimen/calendar_day_padding"/>
+            <corners android:radius="@dimen/calendar_day_corner_radius"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/calendar_stroke_width"
+                android:color="@color/calendar_stroke"/>
+            <solid android:color="@android:color/transparent"/>
+            <padding android:left="@dimen/calendar_day_padding"
+                android:top="@dimen/calendar_day_padding"
+                android:right="@dimen/calendar_day_padding"
+                android:bottom="@dimen/calendar_day_padding"/>
+            <corners android:radius="@dimen/calendar_day_corner_radius"/>
+        </shape>
+    </item>
+</selector>
